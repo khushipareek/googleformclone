@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" >
+    <title>Google Form Clone</title>
+    <link href="style45.css" rel+"stylesheet" type="text/css">
+</head>
+<body>
+    <div class="header">
+      <h1 id="title">GOOGLE FORM</h1>
+    </div>
+    <div class="form">
+      <h2>
+        <a href="https://www.youtube.com/watch?v=kDBMSHuhflo" target="_blank">Avoid People by Gaur GOpalDas  
+        </a>
+      </h2>
+      <p id="description">What do you think about this podcast? Let's make this show more interesting and inspirational.</p>
+      <form id="survey-form">
+        <div>
+          <label id='name-label'>Name:</label>
+          <input id="name" required placeholder="Full Name Please">
+        </div>
+        <div>
+          <label id='email-label'>Email:</label>
+          <input id="email" type="email" required placeholder="Email">
+        </div>
+        <div>
+          <label id='number-label'>Age:</label>
+          <input id="number" type="number" min="1" max="100" placeholder="How old are you?">
+        </div>
+        <div>
+          <label id="dropdown-label"  class="question">What do you like about Podcast?</label>
+          <select id="dropdown">
+            <option></option>
+            <option>Content</option>
+            <option>Format</option>
+            <option>Voice of Host</option>
+            <option>Concept</option>
+          </select>
+        </div>
+        <div>
+          <label class="question">Where do you listen to Podcasts by Gaur Gopal Das?</label>
+          <br>
+          <div class="radioInput">
+            <div class="block">
+              <label class="label">
+                <input class="input" type="radio" name="resource" value="1">
+              Apple Podcast</label>
+            </div>
+            <div class="block">
+              <label class="label">
+               <input class="input" type="radio" value="3" name="resource">
+                Spotify</label>
+            </div>
+            <div class="block">
+              <label class="label">
+                <input class="input" type="radio" name="resource" value="4">
+                Google Podcast</label>
+            </div>
+            <div class="block">
+              <label class="label">
+                <input class="input" type="radio" name="resource" value="4">
+                Youtube</label>
+            </div>
+            <div class="block">
+              <label class="label">
+                <input class="input" type="radio" value="2" name="resource">
+              Anchor.fm</label>
+            </div>
+          </div>
+        </div>
+  
+        <div>
+          <label class="question">Place from where you are listening to the podcast?</label>
+          <div class="block">
+            <label class="label">
+                <input class="input" type="checkbox" value="1">
+              Europe</label>
+          </div>
+          <div class="block">
+            <label class="label">
+                <input class="input" type="checkbox" value="2">
+               Asia</label>
+          </div>
+          <div class="block">
+            <label class="label">
+                <input class="input" type="checkbox" value="3">
+               America</label>
+          </div>
+          <div class="block">
+            <label class="label">
+                <input class="input" type="checkbox" value="4">
+              Africa</label>
+          </div>
+           <div class="block">
+            <label class="label">
+                <input class="input" type="checkbox" value="4">
+              Australia</label>
+          </div>
+        </div>
+  
+        <div class="lastQ">
+          <label class="question">Any feedback or encourgment for the podcast?</label>
+        </div>
+        <br>
+        <div class="lastQ">
+          <textarea class="feedback"></textarea>           
+        </div>
+        <button id="submit" class="submit">Submit</button>
+      </form>
+    </div>
+  
+  </body>
+  </html>
+  
+  
